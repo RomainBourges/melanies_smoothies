@@ -5,6 +5,7 @@ from snowflake.snowpark.functions import col
 
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
 st.text(fruityvice_response)
+print('coucou)
 
 # Write directly to the app
 st.title("Customize your Smoothie")
