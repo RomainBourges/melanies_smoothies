@@ -7,7 +7,7 @@ fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon"
 st.write(st.text(fruityvice_response))
 
 # Write directly to the app
-st.title("Customize your Smoothie :balloon:")
+st.title("Customize your Smoothie")
 st.write(
     """
     Choose the fruits you want in your custom Smoothie
