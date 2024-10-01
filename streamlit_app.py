@@ -1,6 +1,6 @@
 # Import python packages
 import streamlit as st
-import request
+import requests
 from snowflake.snowpark.functions import col
 
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
